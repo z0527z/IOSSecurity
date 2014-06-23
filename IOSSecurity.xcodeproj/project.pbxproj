@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2266F33B18EADACB001428F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2266F33A18EADACB001428F5 /* main.cpp */; };
-		2266F33D18EADACB001428F5 /* cmdTest.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 2266F33C18EADACB001428F5 /* cmdTest.1 */; };
+		2266F33D18EADACB001428F5 /* IOSSecurity.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 2266F33C18EADACB001428F5 /* IOSSecurity.1 */; };
 		229590081949E4C400C2DDA0 /* jailbrokenDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 229590061949E4C400C2DDA0 /* jailbrokenDetection.cpp */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +19,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				2266F33D18EADACB001428F5 /* cmdTest.1 in Copy Files */,
+				2266F33D18EADACB001428F5 /* IOSSecurity.1 in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -27,9 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2266F33718EADACB001428F5 /* cmdTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cmdTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2266F33718EADACB001428F5 /* IOSSecurity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IOSSecurity; sourceTree = BUILT_PRODUCTS_DIR; };
 		2266F33A18EADACB001428F5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2266F33C18EADACB001428F5 /* cmdTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cmdTest.1; sourceTree = "<group>"; };
+		2266F33C18EADACB001428F5 /* IOSSecurity.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IOSSecurity.1; sourceTree = "<group>"; };
 		229590061949E4C400C2DDA0 /* jailbrokenDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jailbrokenDetection.cpp; sourceTree = "<group>"; };
 		229590071949E4C400C2DDA0 /* jailbrokenDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jailbrokenDetection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 		2266F32E18EADACA001428F5 = {
 			isa = PBXGroup;
 			children = (
-				2266F33918EADACB001428F5 /* cmdTest */,
+				2266F33918EADACB001428F5 /* IOSSecurity */,
 				2266F33818EADACB001428F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,28 +56,28 @@
 		2266F33818EADACB001428F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2266F33718EADACB001428F5 /* cmdTest */,
+				2266F33718EADACB001428F5 /* IOSSecurity */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2266F33918EADACB001428F5 /* cmdTest */ = {
+		2266F33918EADACB001428F5 /* IOSSecurity */ = {
 			isa = PBXGroup;
 			children = (
 				2266F33A18EADACB001428F5 /* main.cpp */,
 				229590061949E4C400C2DDA0 /* jailbrokenDetection.cpp */,
 				229590071949E4C400C2DDA0 /* jailbrokenDetection.h */,
-				2266F33C18EADACB001428F5 /* cmdTest.1 */,
+				2266F33C18EADACB001428F5 /* IOSSecurity.1 */,
 			);
-			path = cmdTest;
+			path = IOSSecurity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2266F33618EADACB001428F5 /* cmdTest */ = {
+		2266F33618EADACB001428F5 /* IOSSecurity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2266F34018EADACB001428F5 /* Build configuration list for PBXNativeTarget "cmdTest" */;
+			buildConfigurationList = 2266F34018EADACB001428F5 /* Build configuration list for PBXNativeTarget "IOSSecurity" */;
 			buildPhases = (
 				2266F33318EADACB001428F5 /* Sources */,
 				2266F33418EADACB001428F5 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = cmdTest;
-			productName = cmdTest;
-			productReference = 2266F33718EADACB001428F5 /* cmdTest */;
+			name = IOSSecurity;
+			productName = IOSSecurity;
+			productReference = 2266F33718EADACB001428F5 /* IOSSecurity */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = dingql;
 			};
-			buildConfigurationList = 2266F33218EADACA001428F5 /* Build configuration list for PBXProject "cmdTest" */;
+			buildConfigurationList = 2266F33218EADACA001428F5 /* Build configuration list for PBXProject "IOSSecurity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2266F33618EADACB001428F5 /* cmdTest */,
+				2266F33618EADACB001428F5 /* IOSSecurity */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2266F33218EADACA001428F5 /* Build configuration list for PBXProject "cmdTest" */ = {
+		2266F33218EADACA001428F5 /* Build configuration list for PBXProject "IOSSecurity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2266F33E18EADACB001428F5 /* Debug */,
@@ -235,7 +235,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2266F34018EADACB001428F5 /* Build configuration list for PBXNativeTarget "cmdTest" */ = {
+		2266F34018EADACB001428F5 /* Build configuration list for PBXNativeTarget "IOSSecurity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2266F34118EADACB001428F5 /* Debug */,

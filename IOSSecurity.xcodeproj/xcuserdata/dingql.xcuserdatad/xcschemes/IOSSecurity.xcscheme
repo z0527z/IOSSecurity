@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2266F33618EADACB001428F5"
-               BuildableName = "cmdTest"
-               BlueprintName = "cmdTest"
-               ReferencedContainer = "container:cmdTest.xcodeproj">
+               BuildableName = "IOSSecurity"
+               BlueprintName = "IOSSecurity"
+               ReferencedContainer = "container:IOSSecurity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2266F33618EADACB001428F5"
-            BuildableName = "cmdTest"
-            BlueprintName = "cmdTest"
-            ReferencedContainer = "container:cmdTest.xcodeproj">
+            BuildableName = "IOSSecurity"
+            BlueprintName = "IOSSecurity"
+            ReferencedContainer = "container:IOSSecurity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2266F33618EADACB001428F5"
-            BuildableName = "cmdTest"
-            BlueprintName = "cmdTest"
-            ReferencedContainer = "container:cmdTest.xcodeproj">
+            BuildableName = "IOSSecurity"
+            BlueprintName = "IOSSecurity"
+            ReferencedContainer = "container:IOSSecurity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2266F33618EADACB001428F5"
-            BuildableName = "cmdTest"
-            BlueprintName = "cmdTest"
-            ReferencedContainer = "container:cmdTest.xcodeproj">
+            BuildableName = "IOSSecurity"
+            BlueprintName = "IOSSecurity"
+            ReferencedContainer = "container:IOSSecurity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
